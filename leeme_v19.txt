@@ -1,0 +1,20 @@
+A partir de la versión 10, el tablero se verá en forma gráfica.
+
+Actualmente funciona lo siguiente:
+
+1. Permitir escoger el tamaño del tablero (6x7 o 5x4).
+2. Permitir escoger el nivel de dificultad, entre al menos tres niveles.
+3. Poseer una interfaz que sea de fácil uso, que permita ver el estado del juego en forma clara y seleccionar una jugada sin inducir a errores.
+5. Registrar e imprimir el número de nodos explorados y el tiempo utilizado durante la selección de la jugada que realizará la computadora.
+4. Sugerir una jugada al jugador humano si es que lo pide.
+
+Mejoras:
+6. Incluye algoritmo Minimax con la poda Alpha-Beta, se encuentra en minimax_a_b.py con la intención de graficar la diferenciar de los tiempos de procesos de cada algoritmo.
+7. Se optimiza código y documenta las funciones.
+
+
+- Para iniciar el Juego se debe ejecutar main.py
+- Una vez que termina el juego, el tablero se cierra a los 10 segundos. Para un nuevo juego se debe ejecutar nuevamente main.py
+
+
+Para ver las estadísticas del juego 6x7 en dificultad difícil jugando con sugerencias de posiciones en todas las jugadas humanas, ejecutar estadística.py. Para mayor detalle, ver el informe.
